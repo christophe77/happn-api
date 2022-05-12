@@ -17,6 +17,8 @@ then in your project :
 
 ## Available commands
 
+All return types can be found here : [types](https://github.com/christophe77/happn-api/tree/master/src/types)
+
 ### Auth
 
 Only with facebook for the moment.
@@ -37,7 +39,6 @@ Auth is mandatory before any action.
 ### Me
 
 Used to get your profile datas.
-Return type can be found here : [Me type](https://link-url-here.org).
 
     const { me } = happnApi;
 
@@ -47,8 +48,6 @@ Return type can be found here : [Me type](https://link-url-here.org).
 
 ### Recommandations
 
-Return type can be found here : [Me type](https://link-url-here.org).
-
     const { recommandations } = happnApi;
 
     async function getMyRecommandations() {
@@ -56,8 +55,6 @@ Return type can be found here : [Me type](https://link-url-here.org).
     }
 
 ### Like
-
-Return type can be found here : [Me type](https://link-url-here.org).
 
     const { recommandations, like } = happnApi;
 
@@ -85,8 +82,6 @@ Return type can be found here : [Me type](https://link-url-here.org).
         }
 
 ### Dislike
-
-Return type can be found here : [Me type](https://link-url-here.org).
 
     const { recommandations, dislike } = happnApi;
 
