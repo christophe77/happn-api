@@ -27,8 +27,7 @@ export async function updateLoginDatas(email, updatePayload) {
         else {
             const newUser = { email, access_token: updatePayload.access_token };
             const createUserResponse = await table.insertAsync(dbName, tableName, [newUser]);
-            console.log(createUserResponse);
-            return true;
+            return createUserResponse.success;
         }
         return true;
     }
