@@ -5,9 +5,27 @@ import facebookLogin from "../utils/facebookLogin";
 import axiosInstance from "../axiosInstance";
 
 async function withFacebook(credentials: Credentials): Promise<boolean> {
+  const hasFacebookToken = await getAuthDatas(credentials.email);
+  if (hasFacebookToken?.token && hasFacebookToken.token !== "0") {
+    const tokenIsValid = await loginProcess(credentials, true);
+    if (tokenIsValid) {
+      return true;
+    }
+    return loginProcess(credentials, false);
+  } else {
+    return loginProcess(credentials, false);
+  }
+}
+async function loginProcess(
+  credentials: Credentials,
+  withToken: boolean
+): Promise<boolean> {
   try {
-    await facebookLogin(credentials);
-    const authData = await getAuthDatas();
+    if (!withToken) {
+      await facebookLogin(credentials);
+    }
+
+    const authData = await getAuthDatas(credentials.email);
 
     const assertionString = `{"facebook_token":"${authData.token}","mobile_token":"","mobile_id":""}`;
     const datas = {

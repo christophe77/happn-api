@@ -3,8 +3,8 @@ const happnApi = require("./dist/cjs").default;
 const { auth, recommandations, like } = happnApi;
 
 const facebookCredentials = {
-  email: "email@gmail.com",
-  password: "12345",
+  email: "facebook@gmail.com ",
+  password: "facebook",
 };
 
 async function login() {

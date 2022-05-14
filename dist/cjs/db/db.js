@@ -9,19 +9,13 @@ const { database, table } = yajdb_1.default;
 const dbName = "facebook";
 const tableName = "login_datas";
 const tableStructure = [
-    { name: "id", type: "string" },
+    { name: "email", type: "string" },
     { name: "access_token", type: "string" },
 ];
-const defaultValues = [{ id: "1", access_token: "0" }];
-const searchPayload = { id: "1" };
 async function createDb() {
     try {
         await database.createAsync(dbName);
         await table.createAsync(dbName, tableName, tableStructure);
-        const response = await table.selectAsync(dbName, tableName, searchPayload);
-        if (response.message === "[]" || response.message === "table is empty") {
-            await table.insertAsync(dbName, tableName, defaultValues);
-        }
         return true;
     }
     catch (_a) {
@@ -29,9 +23,20 @@ async function createDb() {
     }
 }
 exports.createDb = createDb;
-async function updateLoginDatas(updatePayload) {
+async function updateLoginDatas(email, updatePayload) {
     try {
-        await table.updateAsync(dbName, tableName, searchPayload, updatePayload);
+        const userExistsResponse = await getAuthDatas(email);
+        if ((userExistsResponse === null || userExistsResponse === void 0 ? void 0 : userExistsResponse.token) !== "0") {
+            await table.updateAsync(dbName, tableName, {
+                email: email,
+            }, updatePayload);
+        }
+        else {
+            const newUser = { email, access_token: updatePayload.access_token };
+            const createUserResponse = await table.insertAsync(dbName, tableName, [newUser]);
+            console.log(createUserResponse);
+            return true;
+        }
         return true;
     }
     catch (_a) {
@@ -39,9 +44,11 @@ async function updateLoginDatas(updatePayload) {
     }
 }
 exports.updateLoginDatas = updateLoginDatas;
-async function getAuthDatas() {
+async function getAuthDatas(email) {
     try {
-        const response = await table.selectAsync(dbName, tableName, searchPayload);
+        const response = await table.selectAsync(dbName, tableName, {
+            email: email,
+        });
         const { access_token } = JSON.parse(response.message)[0];
         return {
             token: access_token,

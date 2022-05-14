@@ -8,9 +8,24 @@ const const_1 = require("../const");
 const facebookLogin_1 = __importDefault(require("../utils/facebookLogin"));
 const axiosInstance_1 = __importDefault(require("../axiosInstance"));
 async function withFacebook(credentials) {
+    const hasFacebookToken = await (0, db_1.getAuthDatas)(credentials.email);
+    if ((hasFacebookToken === null || hasFacebookToken === void 0 ? void 0 : hasFacebookToken.token) && hasFacebookToken.token !== "0") {
+        const tokenIsValid = await loginProcess(credentials, true);
+        if (tokenIsValid) {
+            return true;
+        }
+        return loginProcess(credentials, false);
+    }
+    else {
+        return loginProcess(credentials, false);
+    }
+}
+async function loginProcess(credentials, withToken) {
     try {
-        await (0, facebookLogin_1.default)(credentials);
-        const authData = await (0, db_1.getAuthDatas)();
+        if (!withToken) {
+            await (0, facebookLogin_1.default)(credentials);
+        }
+        const authData = await (0, db_1.getAuthDatas)(credentials.email);
         const assertionString = `{"facebook_token":"${authData.token}","mobile_token":"","mobile_id":""}`;
         const datas = {
             assertion: assertionString,
