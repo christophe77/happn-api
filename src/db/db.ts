@@ -1,6 +1,6 @@
 import yajdb from "yajdb";
 import { StringMap } from "yajdb/dist/esm/types/operations";
-import { AuthData } from "../types/auth";
+import { AuthData } from "../types/auth/auth";
 const { database, table } = yajdb;
 
 const dbName = "facebook";

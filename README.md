@@ -54,6 +54,14 @@ Used to get your profile datas.
         return recommandations();
     }
 
+### Shortlist
+
+    const { shortList } = happnApi;
+
+    async function getShortList() {
+        return shortList();
+    }
+
 ### Like
 
     const { recommandations, like } = happnApi;

@@ -1,4 +1,4 @@
-import { Credentials } from "../types/auth";
+import { Credentials } from "../types/auth/auth";
 import { getAuthDatas } from "../db/db";
 import { client_id, client_secret } from "../const";
 import facebookLogin from "../utils/facebookLogin";

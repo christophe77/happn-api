@@ -1,4 +1,4 @@
-import { RecommandationResponse } from "../types/recommandations";
+import RecommandationResponse from "../types/responses/recommandations";
 import axiosInstance from "../axiosInstance";
 
 async function recommandations(): Promise<RecommandationResponse> {

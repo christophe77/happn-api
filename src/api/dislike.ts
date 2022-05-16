@@ -1,5 +1,5 @@
 import axiosInstance from "../axiosInstance";
-import DislikeResponse from "../types/dislike";
+import DislikeResponse from "../types/responses/dislike";
 
 async function dislike(userId: string): Promise<DislikeResponse> {
   const datas = {};

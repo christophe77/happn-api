@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 import { createDb, updateLoginDatas } from "../db/db";
-import { Credentials } from "../types/auth";
+import { Credentials } from "../types/auth/auth";
 import { facebookAuthUrl, facebookUrl } from "../const";
 
 const delay = async (ms: number) => {

@@ -1,5 +1,5 @@
 import axiosInstance from "../axiosInstance";
-import LikeResponse from "../types/like";
+import LikeResponse from "../types/responses/like";
 
 async function like(userId: string, photoId: string): Promise<LikeResponse> {
   const datas = {

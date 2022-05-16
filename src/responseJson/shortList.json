@@ -1,0 +1,631 @@
+{
+	"status": 200,
+	"data": {
+		"expiration_date": "2022-05-17T04:44:39",
+		"shortlist_users": [
+			{
+				"user": {
+					"id": "663e78cd-924b-4054-9af8-2b22512a8fa1",
+					"status": "ACTIVE",
+					"first_name": "BONITA69",
+					"about": "",
+					"age": 36,
+					"gender": "female",
+					"type": "client",
+					"modification_date": "2022-05-11T10:58:01",
+					"last_position_update": "2022-05-15T14:27:25",
+					"register_date": "2021-07-23T11:21:16",
+					"mysterious_mode_preferences": {
+						"hide_age": false,
+						"hide_distance": false,
+						"hide_last_activity_date": false
+					},
+					"location_preferences": { "hide_location": false },
+					"marketing_preferences": {
+						"audience_measurement": true,
+						"targeted_ads": true,
+						"marketing_operations": true
+					},
+					"last_tos_version_accepted": "bca4fc00-b257-11eb-9f31-f7cdf13e6548",
+					"audios": [],
+					"profiles": [
+						{
+							"id": "4c2b6ec0-eba8-11eb-91a4-09c4f0f5a180",
+							"url": "https://images.happn.fr/resizing/663e78cd-924b-4054-9af8-2b22512a8fa1/4c2b6ec0-eba8-11eb-91a4-09c4f0f5a180.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "4cd59170-eba8-11eb-8282-f3f805dea92d",
+							"url": "https://images.happn.fr/resizing/663e78cd-924b-4054-9af8-2b22512a8fa1/4cd59170-eba8-11eb-8282-f3f805dea92d.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "4d76da80-eba8-11eb-b6b7-19ba57187a80",
+							"url": "https://images.happn.fr/resizing/663e78cd-924b-4054-9af8-2b22512a8fa1/4d76da80-eba8-11eb-b6b7-19ba57187a80.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						}
+					],
+					"picture": {
+						"id": "4c2b6ec0-eba8-11eb-91a4-09c4f0f5a180",
+						"url": "https://images.happn.fr/resizing/663e78cd-924b-4054-9af8-2b22512a8fa1/4c2b6ec0-eba8-11eb-91a4-09c4f0f5a180.jpg?width=640&height=1136&mode=1",
+						"width": 640,
+						"height": 960,
+						"is_default": false
+					},
+					"traits": [
+						{
+							"id": "73210140-772c-11e9-9403-ab4bdd6fe9b1",
+							"default_emoji": "🔎",
+							"default_label": "What are you looking for on happn?",
+							"default_short_label": "Looking for",
+							"short_label_localized": [{ "value": "Looking for", "tags": [] }],
+							"emoji_localized": [{ "value": "🔎", "tags": [] }],
+							"label_localized": [
+								{ "value": "What are you looking for on happn?", "tags": [] }
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "73210140-772c-11e9-9403-ab4bdd6fe9b1",
+								"type": "SINGLE",
+								"single": {
+									"id": "5efb1e20-772d-11e9-9403-ab4bdd6fe9b1",
+									"default_label": "I’ll know when I find it",
+									"label_localized": [
+										{ "value": "I’ll know when I find it", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "a23938b0-77f6-11e9-b0dc-35a91441a495",
+							"default_emoji": "😊",
+							"default_label": "How tall are you?",
+							"default_short_label": "Height",
+							"short_label_localized": [{ "value": "Height", "tags": [] }],
+							"emoji_localized": [{ "value": "👩", "tags": ["FEMALE_ME"] }],
+							"label_localized": [{ "value": "How tall are you?", "tags": [] }],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "a23938b0-77f6-11e9-b0dc-35a91441a495",
+								"type": "FLOAT_RANGE",
+								"float_range": { "value": 1.6999999, "metric": "length" }
+							}
+						},
+						{
+							"id": "bae69d90-77e6-11e9-b4c2-c3a9c0a73afd",
+							"default_emoji": "💪",
+							"default_label": "What are your exercise habits?",
+							"default_short_label": "Exercise",
+							"short_label_localized": [{ "value": "Exercise", "tags": [] }],
+							"emoji_localized": [{ "value": "💪", "tags": [] }],
+							"label_localized": [
+								{ "value": "What are your exercise habits?", "tags": [] }
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "bae69d90-77e6-11e9-b4c2-c3a9c0a73afd",
+								"type": "SINGLE",
+								"single": {
+									"id": "3f3fe1e0-77e8-11e9-b4c2-c3a9c0a73afd",
+									"default_label": "Enough cardio to keep up",
+									"label_localized": [
+										{ "value": "Enough cardio to keep up", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "d61867c0-77f4-11e9-b43e-ed07d0af7b4d",
+							"default_emoji": "🍴",
+							"default_label": "Which answer best describes your cooking skills?",
+							"default_short_label": "Cooking",
+							"short_label_localized": [{ "value": "Cooking", "tags": [] }],
+							"emoji_localized": [{ "value": "👩‍🍳", "tags": ["FEMALE_ME"] }],
+							"label_localized": [
+								{
+									"value": "Which answer best describes your cooking skills?",
+									"tags": ["FEMALE_ME"]
+								}
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "d61867c0-77f4-11e9-b43e-ed07d0af7b4d",
+								"type": "SINGLE",
+								"single": {
+									"id": "66069c80-77eb-11e9-b4c2-c3a9c0a73afd",
+									"default_label": "I’m an excellent chef",
+									"label_localized": [
+										{ "value": "I’m an excellent chef", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "98aac8a0-77eb-11e9-b4c2-c3a9c0a73afd",
+							"default_emoji": "✈",
+							"default_label": "What two words best describe your ideal vacation?",
+							"default_short_label": "Travel",
+							"short_label_localized": [{ "value": "Travel", "tags": [] }],
+							"emoji_localized": [
+								{
+									"value": "✈️",
+									"tags": []
+								}
+							],
+							"label_localized": [
+								{
+									"value": "What two words best describe your ideal vacation?",
+									"tags": []
+								}
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "98aac8a0-77eb-11e9-b4c2-c3a9c0a73afd",
+								"type": "SINGLE",
+								"single": {
+									"id": "b5e0a890-77eb-11e9-b4c2-c3a9c0a73afd",
+									"default_label": "Deckchair & sunscreen",
+									"label_localized": [
+										{ "value": "Deckchair & sunscreen", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "f5ce5f90-91e2-11e9-86f7-9119d852bbdd",
+							"default_emoji": "🎉",
+							"default_label": "When it comes to the nightlife…",
+							"default_short_label": "Partying",
+							"short_label_localized": [{ "value": "Partying", "tags": [] }],
+							"emoji_localized": [{ "value": "🎉", "tags": [] }],
+							"label_localized": [
+								{ "value": "When it comes to the nightlife…", "tags": [] }
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "f5ce5f90-91e2-11e9-86f7-9119d852bbdd",
+								"type": "SINGLE",
+								"single": {
+									"id": "41625d80-91e3-11e9-86f7-9119d852bbdd",
+									"default_label": "I party in moderation",
+									"label_localized": [
+										{ "value": "I party in moderation", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "79c98710-7ef1-11ea-9cbc-072a91dcea22",
+							"default_emoji": "🚬",
+							"default_label": "Your opinion on smoking?",
+							"default_short_label": "Smoking",
+							"short_label_localized": [{ "value": "Smoking", "tags": [] }],
+							"emoji_localized": [{ "value": "🚬", "tags": [] }],
+							"label_localized": [
+								{ "value": "Your opinion on smoking?", "tags": [] }
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "79c98710-7ef1-11ea-9cbc-072a91dcea22",
+								"type": "SINGLE",
+								"single": {
+									"id": "f502f010-7ef1-11ea-9cbc-072a91dcea22",
+									"default_label": "Zero tolerance",
+									"label_localized": [{ "value": "Zero tolerance", "tags": [] }]
+								}
+							}
+						},
+						{
+							"id": "31454f40-7ef3-11ea-9cbc-072a91dcea22",
+							"default_emoji": "👶",
+							"default_label": "What about kids?",
+							"default_short_label": "Kids",
+							"short_label_localized": [{ "value": "Kids", "tags": [] }],
+							"emoji_localized": [{ "value": "👶", "tags": [] }],
+							"label_localized": [{ "value": "What about kids?", "tags": [] }],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "31454f40-7ef3-11ea-9cbc-072a91dcea22",
+								"type": "SINGLE",
+								"single": {
+									"id": "e49e4bf0-7ef8-11ea-9cbc-072a91dcea22",
+									"default_label": "I’d like some, thanks",
+									"label_localized": [
+										{ "value": "I’d like some, thanks", "tags": [] }
+									]
+								}
+							}
+						}
+					],
+					"verification": { "status": "unverified" },
+					"matching_preferences": {
+						"male": true,
+						"female": false,
+						"age_min": 20,
+						"age_max": 50
+					}
+				}
+			},
+			{
+				"user": {
+					"id": "6e9fccdf-5db0-4700-9f0a-bd2b67d522d9",
+					"status": "ACTIVE",
+					"first_name": "AURORE",
+					"about": "Je ne sais pas ce que je cherche mais je le trouve toujours !",
+					"age": 39,
+					"gender": "female",
+					"job": "Notaire",
+					"school": "Université Paris 2",
+					"workplace": "Droit  Patrimonial Et Fiscal",
+					"type": "client",
+					"modification_date": "2022-05-16T05:18:43",
+					"last_position_update": "2022-05-16T05:18:43",
+					"register_date": "2021-08-08T20:47:50",
+					"mysterious_mode_preferences": {
+						"hide_age": false,
+						"hide_distance": false,
+						"hide_last_activity_date": false
+					},
+					"location_preferences": { "hide_location": false },
+					"marketing_preferences": {
+						"audience_measurement": true,
+						"targeted_ads": true,
+						"marketing_operations": true
+					},
+					"last_tos_version_accepted": "bca4fc00-b257-11eb-9f31-f7cdf13e6548",
+					"audios": [],
+					"profiles": [
+						{
+							"id": "f8bddf60-cb09-11ec-9f61-07db806c49e5",
+							"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/f8bddf60-cb09-11ec-9f61-07db806c49e5.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 961,
+							"is_default": false
+						},
+						{
+							"id": "f95bcd10-cb09-11ec-9f61-07db806c49e5",
+							"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/f95bcd10-cb09-11ec-9f61-07db806c49e5.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "fa10ec40-cb09-11ec-9f61-07db806c49e5",
+							"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/fa10ec40-cb09-11ec-9f61-07db806c49e5.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "faf754a0-cb09-11ec-b98a-5186470dc18e",
+							"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/faf754a0-cb09-11ec-b98a-5186470dc18e.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "fbab8970-cb09-11ec-af69-c353d2388132",
+							"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/fbab8970-cb09-11ec-af69-c353d2388132.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "fc787660-cb09-11ec-a323-a1f15bccd5dc",
+							"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/fc787660-cb09-11ec-a323-a1f15bccd5dc.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "fd66a6f0-cb09-11ec-beef-cf2d4117744f",
+							"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/fd66a6f0-cb09-11ec-beef-cf2d4117744f.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "fe0e58a0-cb09-11ec-9f61-07db806c49e5",
+							"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/fe0e58a0-cb09-11ec-9f61-07db806c49e5.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 961,
+							"is_default": false
+						},
+						{
+							"id": "feb14f60-cb09-11ec-a323-a1f15bccd5dc",
+							"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/feb14f60-cb09-11ec-a323-a1f15bccd5dc.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						}
+					],
+					"picture": {
+						"id": "f8bddf60-cb09-11ec-9f61-07db806c49e5",
+						"url": "https://images.happn.fr/resizing/6e9fccdf-5db0-4700-9f0a-bd2b67d522d9/f8bddf60-cb09-11ec-9f61-07db806c49e5.jpg?width=640&height=1136&mode=1",
+						"width": 640,
+						"height": 961,
+						"is_default": false
+					},
+					"traits": [
+						{
+							"id": "73210140-772c-11e9-9403-ab4bdd6fe9b1",
+							"default_emoji": "🔎",
+							"default_label": "What are you looking for on happn?",
+							"default_short_label": "Looking for",
+							"short_label_localized": [{ "value": "Looking for", "tags": [] }],
+							"emoji_localized": [{ "value": "🔎", "tags": [] }],
+							"label_localized": [
+								{ "value": "What are you looking for on happn?", "tags": [] }
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "73210140-772c-11e9-9403-ab4bdd6fe9b1",
+								"type": "SINGLE",
+								"single": {
+									"id": "5efb1e20-772d-11e9-9403-ab4bdd6fe9b1",
+									"default_label": "I’ll know when I find it",
+									"label_localized": [
+										{ "value": "I’ll know when I find it", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "a23938b0-77f6-11e9-b0dc-35a91441a495",
+							"default_emoji": "😊",
+							"default_label": "How tall are you?",
+							"default_short_label": "Height",
+							"short_label_localized": [{ "value": "Height", "tags": [] }],
+							"emoji_localized": [{ "value": "👩", "tags": ["FEMALE_ME"] }],
+							"label_localized": [{ "value": "How tall are you?", "tags": [] }],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "a23938b0-77f6-11e9-b0dc-35a91441a495",
+								"type": "FLOAT_RANGE",
+								"float_range": { "value": 1.6899999, "metric": "length" }
+							}
+						},
+						{
+							"id": "bae69d90-77e6-11e9-b4c2-c3a9c0a73afd",
+							"default_emoji": "💪",
+							"default_label": "What are your exercise habits?",
+							"default_short_label": "Exercise",
+							"short_label_localized": [{ "value": "Exercise", "tags": [] }],
+							"emoji_localized": [{ "value": "💪", "tags": [] }],
+							"label_localized": [
+								{ "value": "What are your exercise habits?", "tags": [] }
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "bae69d90-77e6-11e9-b4c2-c3a9c0a73afd",
+								"type": "SINGLE",
+								"single": {
+									"id": "3f3fe1e0-77e8-11e9-b4c2-c3a9c0a73afd",
+									"default_label": "Enough cardio to keep up",
+									"label_localized": [
+										{ "value": "Enough cardio to keep up", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "d61867c0-77f4-11e9-b43e-ed07d0af7b4d",
+							"default_emoji": "🍴",
+							"default_label": "Which answer best describes your cooking skills?",
+							"default_short_label": "Cooking",
+							"short_label_localized": [{ "value": "Cooking", "tags": [] }],
+							"emoji_localized": [{ "value": "👩‍🍳", "tags": ["FEMALE_ME"] }],
+							"label_localized": [
+								{
+									"value": "Which answer best describes your cooking skills?",
+									"tags": ["FEMALE_ME"]
+								}
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "d61867c0-77f4-11e9-b43e-ed07d0af7b4d",
+								"type": "SINGLE",
+								"single": {
+									"id": "5f045490-77eb-11e9-b4c2-c3a9c0a73afd",
+									"default_label": "I know a few good recipes",
+									"label_localized": [
+										{ "value": "I know a few good recipes", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "98aac8a0-77eb-11e9-b4c2-c3a9c0a73afd",
+							"default_emoji": "✈",
+							"default_label": "What two words best describe your ideal vacation?",
+							"default_short_label": "Travel",
+							"short_label_localized": [{ "value": "Travel", "tags": [] }],
+							"emoji_localized": [{ "value": "✈️", "tags": ["a"] }],
+							"label_localized": [
+								{
+									"value": "What two words best describe your ideal vacation?",
+									"tags": []
+								}
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "98aac8a0-77eb-11e9-b4c2-c3a9c0a73afd",
+								"type": "SINGLE",
+								"single": {
+									"id": "bc9ff410-77eb-11e9-b4c2-c3a9c0a73afd",
+									"default_label": "Museum & postcards",
+									"label_localized": [
+										{ "value": "Museum & postcards", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "f5ce5f90-91e2-11e9-86f7-9119d852bbdd",
+							"default_emoji": "🎉",
+							"default_label": "When it comes to the nightlife…",
+							"default_short_label": "Partying",
+							"short_label_localized": [{ "value": "Partying", "tags": [] }],
+							"emoji_localized": [{ "value": "🎉", "tags": [] }],
+							"label_localized": [
+								{ "value": "When it comes to the nightlife…", "tags": [] }
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "f5ce5f90-91e2-11e9-86f7-9119d852bbdd",
+								"type": "SINGLE",
+								"single": {
+									"id": "47948430-91e3-11e9-86f7-9119d852bbdd",
+									"default_label": "I’m a night owl",
+									"label_localized": [
+										{ "value": "I’m a night owl", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "79c98710-7ef1-11ea-9cbc-072a91dcea22",
+							"default_emoji": "🚬",
+							"default_label": "Your opinion on smoking?",
+							"default_short_label": "Smoking",
+							"short_label_localized": [{ "value": "Smoking", "tags": [] }],
+							"emoji_localized": [{ "value": "🚬", "tags": [] }],
+							"label_localized": [
+								{ "value": "Your opinion on smoking?", "tags": [] }
+							],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "79c98710-7ef1-11ea-9cbc-072a91dcea22",
+								"type": "SINGLE",
+								"single": {
+									"id": "e03db520-7ef1-11ea-9cbc-072a91dcea22",
+									"default_label": "Not a fan, but whatever",
+									"label_localized": [
+										{ "value": "Not a fan, but whatever", "tags": [] }
+									]
+								}
+							}
+						},
+						{
+							"id": "31454f40-7ef3-11ea-9cbc-072a91dcea22",
+							"default_emoji": "👶",
+							"default_label": "What about kids?",
+							"default_short_label": "Kids",
+							"short_label_localized": [{ "value": "Kids", "tags": [] }],
+							"emoji_localized": [{ "value": "👶", "tags": [] }],
+							"label_localized": [{ "value": "What about kids?", "tags": [] }],
+							"sensitive_trait": false,
+							"answer": {
+								"trait_id": "31454f40-7ef3-11ea-9cbc-072a91dcea22",
+								"type": "SINGLE",
+								"single": {
+									"id": "1d1f6f50-7ef8-11ea-9cbc-072a91dcea22",
+									"default_label": "I love the ones I have",
+									"label_localized": [
+										{ "value": "I love the ones I have", "tags": [] }
+									]
+								}
+							}
+						}
+					],
+					"verification": {
+						"status": "verified",
+						"reason": "no_more_verified_photo"
+					},
+					"matching_preferences": {
+						"male": true,
+						"female": false,
+						"age_min": 29,
+						"age_max": 47
+					}
+				}
+			},
+			{
+				"user": {
+					"id": "21122410343",
+					"status": "ACTIVE",
+					"first_name": "Geyza",
+					"last_name": "Macedo",
+					"about": "Pisciana Nata ... Meio Flòr Meio Espinho *)",
+					"age": 34,
+					"gender": "female",
+					"job": "",
+					"school": "",
+					"workplace": "",
+					"type": "client",
+					"modification_date": "2022-05-14T14:30:43",
+					"last_position_update": "2022-05-16T05:33:27",
+					"register_date": "2016-09-21T04:50:02",
+					"mysterious_mode_preferences": {
+						"hide_age": false,
+						"hide_distance": false,
+						"hide_last_activity_date": false
+					},
+					"location_preferences": { "hide_location": false },
+					"marketing_preferences": {
+						"audience_measurement": true,
+						"targeted_ads": true,
+						"marketing_operations": true
+					},
+					"last_tos_version_accepted": "bca4fc00-b257-11eb-9f31-f7cdf13e6548",
+					"last_cookie_v1_version_accepted": "a6805620-61ec-11ea-bc55-0242ac130003",
+					"audios": [],
+					"profiles": [
+						{
+							"id": "d1af8a00-0d27-11eb-967e-257ef111760c",
+							"url": "https://images.happn.fr/resizing/21122410343/d1af8a00-0d27-11eb-967e-257ef111760c.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 961,
+							"is_default": false
+						},
+						{
+							"id": "0d2172a0-c9a7-11ec-a093-71dc27fcf8fb",
+							"url": "https://images.happn.fr/resizing/21122410343/0d2172a0-c9a7-11ec-a093-71dc27fcf8fb.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "0e6452e0-c9a7-11ec-bf18-07a9e2ee1c49",
+							"url": "https://images.happn.fr/resizing/21122410343/0e6452e0-c9a7-11ec-bf18-07a9e2ee1c49.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 960,
+							"is_default": false
+						},
+						{
+							"id": "0f238430-c9a7-11ec-9114-ebcee5a31f1e",
+							"url": "https://images.happn.fr/resizing/21122410343/0f238430-c9a7-11ec-9114-ebcee5a31f1e.jpg?width=640&height=1136&mode=1",
+							"width": 640,
+							"height": 961,
+							"is_default": false
+						}
+					],
+					"picture": {
+						"id": "d1af8a00-0d27-11eb-967e-257ef111760c",
+						"url": "https://images.happn.fr/resizing/21122410343/d1af8a00-0d27-11eb-967e-257ef111760c.jpg?width=640&height=1136&mode=1",
+						"width": 640,
+						"height": 961,
+						"is_default": false
+					},
+					"social_synchronization": { "facebook": { "id": "969214419794120" } },
+					"traits": [],
+					"verification": { "status": "unverified" },
+					"matching_preferences": {
+						"male": true,
+						"female": false,
+						"age_min": 38,
+						"age_max": 70
+					}
+				}
+			}
+		]
+	},
+	"success": true,
+	"error_code": 0
+}
