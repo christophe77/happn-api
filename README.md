@@ -3,6 +3,8 @@
 Wrapper of happn api for nodeJS.
 Working may 2022 - Only facebook auth.
 
+Exemple of use : [https://github.com/christophe77/happn-bot](https://github.com/christophe77/happn-bot)
+
 ## Installation
 
     npm i happn-api
