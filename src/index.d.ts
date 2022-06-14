@@ -1,16 +1,17 @@
-import { Credentials, AuthFacebook } from "./types/auth";
-import { Feeling } from "./types/feelings";
-import { Recommandations } from "./types/recommandations";
+import { Credentials } from './types/auth/auth';
+import { MeResponse } from './types/me';
+import LikeResponse from './types/responses/like';
+import DisLikeResponse from './types/responses/dislike';
+import RecommandationResponse from './types/responses/recommandations';
+import ShortListResponse from './types/responses/shortList';
 
 export interface HappnApi {
-  auth: {
-    withFacebook: (credentials: Credentials) => Promise<AuthFacebook>;
-  };
-  feeling: {
-    like: (userId: string) => Promise<Feeling>;
-    pass: (userId: string) => Promise<Feeling>;
-  };
-  recommandation: {
-    getRecommandations: Promise<Recommandations>;
-  };
+	auth: {
+		withFacebook: (credentials: Credentials) => Promise<boolean>;
+	};
+	me: () => Promise<MeResponse>;
+	like: (userId: string, photoId: string) => Promise<LikeResponse>;
+	dislike: (userId: string) => Promise<DisLikeResponse>;
+	recommandations: () => Promise<RecommandationResponse>;
+	shortList: () => Promise<ShortListResponse>;
 }
