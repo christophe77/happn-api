@@ -105,6 +105,8 @@ Used to get your profile datas.
 
 ### Example
 
+Full implementation for a bot usage can be found here [happn-bot](https://github.com/christophe77/happn-bot)
+
     const happnApi = require("happn-api").default;
 
     const { auth, recommandations, like } = happnApi;
