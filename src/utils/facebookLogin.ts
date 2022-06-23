@@ -62,6 +62,7 @@ async function facebookLogin(credentials: Credentials): Promise<boolean> {
     await browser.close();
     return true;
   } catch (error) {
+    console.log(error)
     return false;
   }
 }
